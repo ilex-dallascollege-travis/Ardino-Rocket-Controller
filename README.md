@@ -8,6 +8,8 @@ This Arduino program regulates a compressor output until a target pressure (psi)
 ## Number Input Rule
 - **Without `0x` prefix:** Treated as **binary** (base 2), e.g., `1010` = `10`.
 - **With `0x` (or `0X`) prefix:** Treated as **hexadecimal** (base 16), e.g., `0x0A` = `10`.
+- Type the number into the Serial Monitor (set it to 9600 baud). If you don't type one, the `A0` knob sets the target instead.
+
 
 ## Workflow
 1. Accept/read the target pressure (from `A0` potentiometer and/or numeric input using the binary/hex rule)[span_2](start_span)[span_2](end_span).
