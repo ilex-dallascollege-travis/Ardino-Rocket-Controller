@@ -14,6 +14,3 @@ This Arduino program regulates a compressor output until a target pressure (psi)
 2. Monitor current pressure and keep the compressor active until target pressure is reached[span_3](start_span)[span_3](end_span).
 3. Stop compressor regulation and run the rocket launch countdown on the LCD/LEDs, triggering the launch indicator at completion[span_4](start_span)[span_4](end_span).
 
-## Collaboration
-- Code is maintained in this GitHub repository.
-- At least two classmates are invited to propose edits/revisions via branches or pull requests, which are reviewed and merged into `main`.
